@@ -31,6 +31,8 @@ Usage of ./analyzer:
 To run, you need to have a file with logs from MLPerf
 
 ### Launch example
+
+#### Counting the total time
 ```bash
 go build
 ./analyzer --path=input/file.log --calc_mode=all
@@ -41,6 +43,7 @@ Output:
 33.868433
 ```
 
+#### Calculating the average execution time of an epoch
 ```bash
 go build
 ./analyzer --path=input/file.log --calc_mode=mean_epoch_time
@@ -50,3 +53,13 @@ Output:
 ```bash
 1.252117
 ```
+
+## Links
+MLCommons:\
+https://mlcommons.org
+
+MLCommons MLPerf Training Github:\
+https://github.com/mlcommons/training
+
+MLCommons MLPerf Inference Github:\
+https://github.com/mlcommons/inference
