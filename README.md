@@ -71,8 +71,8 @@ check output/nvidia_unet_profile.csv
 MLCommons:\
 https://mlcommons.org
 
-MLCommons MLPerf Training Github:\
+MLCommons MLPerf Training Github repo:\
 https://github.com/mlcommons/training
 
-MLCommons MLPerf Inference Github:\
+MLCommons MLPerf Inference Github repo:\
 https://github.com/mlcommons/inference
