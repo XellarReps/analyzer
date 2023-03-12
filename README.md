@@ -22,7 +22,9 @@ Detailed description of each argument:
 ```text
 Usage of ./analyzer:
   -calc_mode string
-        choose the time counting method (all, mean_epoch_time)
+        choose the time counting method (all, mean_epoch_time, profile)
+  -csv_path string
+        result csv file (if calc_mode = profile)
   -path string
         ***.log file path
 ```
@@ -52,6 +54,17 @@ go build
 Output:
 ```bash
 1.252117
+```
+
+#### Profiling
+```bash
+go build
+./analyzer --path=input/nvidia_unet_profile.log --csv_path=output/nvidia_unet_profile.csv --calc_mode=profile
+```
+
+Output:
+```bash
+check output/nvidia_unet_profile.csv
 ```
 
 ## Links

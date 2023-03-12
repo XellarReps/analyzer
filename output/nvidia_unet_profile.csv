@@ -1,0 +1,12 @@
+Op_type,Time
+OutputLayer,0.001467
+Conv3d,0.222333
+InputBlock,0.050533
+Unet3D,0.286183
+InstanceNorm3d,0.010867
+Sequential,0.272633
+DownsampleBlock,0.028700
+Identity,0.002450
+UpsampleBlock,0.202383
+ReLU,0.007000
+ConvTranspose3d,0.002417
